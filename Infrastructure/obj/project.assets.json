@@ -1207,11 +1207,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\PhuShop\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\PhuShop\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\skinet\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\PhuShop\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1226,8 +1226,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\skinet\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\skinet\\Core\\Core.csproj"
+            "C:\\Users\\Admin\\Desktop\\PhuShop\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\PhuShop\\Core\\Core.csproj"
             }
           }
         }
