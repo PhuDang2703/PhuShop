@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+//You extension method in order to take these code in brief
 builder.Services.AddApplicationServices(builder.Configuration);
 
 var app = builder.Build();
@@ -18,7 +19,7 @@ app.UseMiddleware<ExceptionMiddleware>();
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
 
 
-//middleware swagger, endpoint of API
+//Middleware swagger, endpoint of API
 app.UseSwagger();
 //Dislay on swagger broswer
 app.UseSwaggerUI();
@@ -27,6 +28,7 @@ app.UseHttpsRedirection();
 
 app.UseStaticFiles();
 app.UseAuthentication();
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
